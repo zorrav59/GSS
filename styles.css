@@ -192,8 +192,12 @@ body {
   }
 }
 
+/* main */
 .main {
-  background-color: #141414;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  
 }
 
 .main__container1 {
@@ -203,7 +207,6 @@ body {
   justify-self: center;
   margin: 0 auto;
   height: 90vh;
-  background-color: #141414;
   z-index: 1;
   width: 100%;
   max-width: 1300px;
@@ -341,4 +344,31 @@ body {
   }
 }
 
-/* servis */
+/* gabrol */
+.gabrol {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/images/gabron.jpg);
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.teks-gabroy {
+  
+  padding-top: 15rem;
+  color: #ffffff;
+}
+
+.teks-gabroy h1  {
+  font-size: 3rem;
+}
+
+.teks-gabroy h2  {
+  font-size: 3rem;
+}
+
+.teks-gabroy :hover {
+  color: #767676;
+  transition: all 0.3s ease;
+}
