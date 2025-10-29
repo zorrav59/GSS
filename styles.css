@@ -401,3 +401,10 @@ body {
 .Team h2 span {
   color: #767676;
 }
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
