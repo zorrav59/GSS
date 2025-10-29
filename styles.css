@@ -198,7 +198,6 @@ body {
   width: 100%;
   height: 100%;
   display: flex;
-  
 }
 
 .main__container1 {
@@ -215,7 +214,7 @@ body {
 }
 
 .main__content h1 {
-  font-size: 3rem;
+  font-size: 5rem;
   background-color: #ff8177;
   background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
   background-size: 100%;
@@ -351,14 +350,13 @@ body {
 
 /* gabrol */
 .gabrol {
-  width: 100%;
-  height: 100vh;
-  background-image: url(/images/gabron.jpg);
+  min-height: 100vh;
+  display: flex;
   align-items: center;
+  background-image: url(/images/gabron.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  position: relative;
 }
 
 .teks-gabroy {
@@ -366,15 +364,40 @@ body {
   color: #ffffff;
 }
 
-.teks-gabroy h1  {
+.teks-gabroy h1 {
   font-size: 3rem;
 }
 
-.teks-gabroy h2  {
+.teks-gabroy h2 {
   font-size: 3rem;
 }
 
 .teks-gabroy :hover {
   color: #767676;
   transition: all 0.3s ease;
+}
+
+/* member */
+
+.Team {
+  text-align: center;
+  font-size: 2.6rem;
+  margin-bottom: 1rem;
+}
+
+.Team {
+  padding: 8rem 7% 1.4rem;
+}
+
+.Team p {
+  text-align: center;
+  max-width: 30rem;
+  margin: auto;
+  font-weight: 100;
+  line-height: 1.6;
+  color: #fff;
+}
+
+.Team h2 span {
+  color: #767676;
 }
